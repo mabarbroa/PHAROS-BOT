@@ -14,7 +14,7 @@ function rotateRpcProvider() {
     return provider();
 }
 
-// const PRIVATE_KEY = process.env.PRIVATE_KEY; // Removed as private keys are now handled by private.txt
+
 const baseExplorerUrl = '{{EXPLORER_URL}}';
 const explorer = {
     get tx() {

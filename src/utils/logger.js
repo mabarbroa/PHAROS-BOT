@@ -49,7 +49,7 @@ function setupLogger() {
     }
     
     // Format: [Date - Time - Wallet Index] log message
-    return `${chalk.gray('[')}${chalk.cyan(formattedDate)} - ${chalk.magenta(`Wallet ${formattedWalletIndex}`)}${chalk.gray(']')} ${levelColor(message)}`;
+    return `✨ ${chalk.gray('[')}${chalk.cyan(formattedDate)} - ${chalk.magenta(`Bot ${formattedWalletIndex}`)}${chalk.gray(']')} ${levelColor(message)}`;
   });
   
   // Create logger

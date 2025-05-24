@@ -8,18 +8,7 @@ const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 function header() {
   process.stdout.write('\x1Bc');
   console.log('===================================================='.cyan);
-  console.log('                                                    '.cyan);
-  console.log(' 888    888                 888                     '.cyan);
-  console.log(' 888    888                 888                     '.cyan);
-  console.log(' 888    888                 888                     '.cyan);
-  console.log(' 888    888  8888b.  .d8888 888  888  8888b.       '.cyan);
-  console.log(' 888    888     "88bd8" 888 888 .88P     "88b      '.cyan);
-  console.log(' 888    888 .d888888 888 888 888888K .d888888      '.cyan);
-  console.log(' 888    888 888  888 "Y88888 888 "88b 888  888      '.cyan);
-  console.log(' 888    888 "Y888888      88 888  888 "Y888888      '.cyan);
-  console.log('                                                    '.cyan);
-  console.log('===================================================='.cyan);
-  console.log();
+  console.log(' PHAROS BOT -- BY CRYPTO WITH SHASHI                '.cyan);
 }
 
 const loading = (message, duration) => {

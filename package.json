@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "license": "MIT",
-  "author": "Kazuha787",
+  "author": "crypto with shashi",
+  "main": "pharosbot.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,6 +17,7 @@
     "ethers": "^6.14.1",
     "fake-useragent": "^1.0.1",
     "moment": "^2.30.1",
-    "moment-timezone": "^0.5.46"
+    "moment-timezone": "^0.5.46",
+    "winston": "^3.13.0"
   }
 }

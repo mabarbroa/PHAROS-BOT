@@ -2,8 +2,8 @@ name: Timestamp Update
 
 on:
   schedule:
-    - cron: '*/20 * * * *'  # Runs every 20 minutes
-  workflow_dispatch:  # Allows manual triggering
+    - cron: '*/20 * * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -22,7 +22,7 @@ jobs:
       - name: Configure Git
         run: |
           git config --global user.email "devsinghharsh000@gmail.com"
-          git config --global user.name "Kazuha787"
+          git config --global user.name "crypto with shashi"
 
       - name: Pull Latest Changes
         run: |
