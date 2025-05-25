@@ -218,7 +218,7 @@ async function addLpUSDT(logger) {
       if (!l) {
         continue;
       }
-      let amount = getRandomAmount(0.2, 0.5); // Random amount between 0.2 and 0.5
+      let amount = getRandomAmount(0.001, 0.002); // Random amount between 0.2 and 0.5
       let amountStr = e.formatEther(amount);
       let c = {
         token0: contract.WPHRS,
@@ -807,3 +807,4 @@ module.exports = {
   socialTask,
   unlimitedFaucet,
 };
+
